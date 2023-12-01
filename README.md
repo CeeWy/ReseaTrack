@@ -1,0 +1,1 @@
+A Web-based Research management system aimed at ensuring a seamless interaction between a Research and Supervisor
