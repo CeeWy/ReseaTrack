@@ -31,3 +31,6 @@ button{
     color: #ffffff;
     border: none;
 }
+a{
+    text-decoration: none;
+}
