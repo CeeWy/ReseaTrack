@@ -1,5 +1,31 @@
 header{
     height: 100px;
     width: 1440px;
-    color: #F4F4F9;
+    background-color: #F4F4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #211499;
+}
+
+body{
+    font-family: poppins;
+    width: 1440px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #F25930;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
 }
