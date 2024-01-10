@@ -1,11 +1,48 @@
+/*header styling*/
+#header{
+    height: 40px;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    height: 25px;
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body header nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+#highlights{
+    color: #F25930;
+}
+/*body styling*/
+body{
+    width: 1440px;
+    height: 1800px;
+    background-color: #F4F4F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*banner styling*/
 #homepage h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
     display: flex;
-    height:165px;
-    width: 985px;
+    height: 120px;
+    width: 895px;
     color: #ffffff;
+    margin-top: 0;
 }
 
 #homepage{
@@ -23,11 +60,11 @@
 }
 
 #homepage div{
-    height: 320px;
-    width: 985px;
+    height: 280px;
+    width: 895px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
 
 #buttons{
@@ -38,29 +75,32 @@
     justify-content: space-between;
 }
 
-#header{
-    height: 40px;
-    width: 1260px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+#login{
+    border: 2px solid #F25930;
+    background: none    ;
 
-nav{
-    height: 25px;
-    width: 215px;
-    display: flex;
-    justify-content: space-between;
 }
-
 a{
     text-decoration: none;
-    font-size: 16px;
-    color: #333333;
+    color: #ffffff;
 }
 
-#highlights{
-    color: #F25930;
+/*review styling*/
+#reviews{
+    height: 655px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#review_texts{
+    width: 90px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 #reviews h2{
     font-size: 30px;
@@ -69,17 +109,39 @@ a{
     width: 540px;
     height:90px;
     text-align: center;
+    margin-top: 0;
+}
+#all_reviews{
+    width: 1280px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 
-body{
-    width: 1440px;
-    height: 1800px;
-    background-color: #F4F4F9;
+.each_review{
+    width: 400px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+#explore_more{
+    width: 540px;
+    height: 165px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
+.profile{
+    font-size: 12px;
+    font-weight: 400;
+}
+.comment{
+    font-size: 11px;
+}
+/*footer styling*/
 footer{
     height: 100px;
     background-color: #211499;
