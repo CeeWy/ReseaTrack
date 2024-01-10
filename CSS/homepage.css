@@ -87,6 +87,14 @@ a{
 
 /*review styling*/
 #reviews{
+    height: 850px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#review_column{
     height: 655px;
     width: 1280px;
     display: flex;
@@ -95,8 +103,8 @@ a{
     align-items: center;
 }
 #review_texts{
-    width: 90px;
-    height: 555px;
+    width: 555px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,7 +117,7 @@ a{
     width: 540px;
     height:90px;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
 }
 #all_reviews{
     width: 1280px;
@@ -125,6 +133,29 @@ a{
     border-radius: 15px;
 }
 
+.name{
+    height: 30px;
+    width: 155px;
+    background-color: #F25930;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reviews h3{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.profile{
+    font-size: 12px;
+    font-weight: 500;
+}
+.comment{
+    font-size: 11px;
+    font-weight: 300;
+}
+
 #explore_more{
     width: 540px;
     height: 165px;
@@ -134,13 +165,6 @@ a{
     justify-content: space-between;
 }
 
-.profile{
-    font-size: 12px;
-    font-weight: 400;
-}
-.comment{
-    font-size: 11px;
-}
 /*footer styling*/
 footer{
     height: 100px;
@@ -153,6 +177,6 @@ footer{
 
 footer p{
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     color: #ffffff;
 }
