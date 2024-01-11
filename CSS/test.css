@@ -1,0 +1,20 @@
+nav{
+    background-color:#f1f15c;
+    height: 100px;
+    width: 1000px;
+    color:#00114c;
+    font-size: 40px;
+}
+div{
+    background-color: #00114c;
+    height: 100px;
+    width: 1000px;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+

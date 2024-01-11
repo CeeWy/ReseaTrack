@@ -1,6 +1,6 @@
 header{
     height: 100px;
-    width: 1440px;
+    width: auto;
     background-color: #F4F4F9;
     display: flex;
     justify-content: center;
@@ -15,8 +15,8 @@ header p{
 
 body{
     font-family: poppins;
-    width: 1440px;
-    margin: 0;
+    width: auto;
+    margin: auto;
     padding: 0;
 }
 

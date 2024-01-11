@@ -1,15 +1,25 @@
 #login{
     background-image: url(../Assets/login.jpg);
-    background-size: 1440px 1024px;
+    background-size: 1440px 1200px;
     background-color: #211499;
-    background-size: 1440px 1024px;
-    background-repeat: no-repeat;
+    background-size: 1440px 1200px;
+    background-repeat:no-repeat;
     background-blend-mode: multiply;
-    height: 1024px;
-    width: 1440px;
+    height: 1200px;
+    width: 100%;
     display: flex;
+    margin: auto;
     flex-direction: column;
     align-items: center;
+}
+#signup_area{
+    width: 750px;
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 235px;
 }
 h1{
     color: #ffffff;
@@ -28,4 +38,5 @@ input{
     margin: 10px;
     padding: 0;
     font-size: 16px;
+    text-indent: 15px;
 }
