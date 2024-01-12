@@ -1,7 +1,7 @@
 /*header styling*/
 #header{
     height: 40px;
-    width: 1260px;
+    width: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,8 +25,8 @@ body header nav a{
 }
 /*body styling*/
 body{
-    width: 1440px;
-    height: 1800px;
+    width: auto;
+    height: 1950px;
     background-color: #F4F4F9;
     display: flex;
     flex-direction: column;
@@ -53,10 +53,10 @@ body{
     background-image: url("../Assets/background.jpg");
     background-color:#211499;
     background-blend-mode: multiply;
-    background-size: 1440px 750px;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
-    width: 1440px
+    width: 100%
 }
 
 #homepage div{
@@ -87,7 +87,7 @@ a{
 
 /*review styling*/
 #reviews{
-    height: 850px;
+    height: 1000px;
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ a{
     align-items: center;
 }
 #review_column{
-    height: 655px;
+    height: 755px;
     width: 1280px;
     display: flex;
     flex-direction: column;
@@ -111,31 +111,53 @@ a{
     align-items: center;
 }
 #reviews h2{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #211499;
-    width: 540px;
+    width: 600px;
     height:90px;
     text-align: center;
     margin: 0;
 }
+
 #all_reviews{
-    width: 1280px;
+    width: 1600px;
     height: 250px;
     display: flex;
     justify-content: space-between;
 }
 
 .each_review{
-    width: 400px;
-    height: 250px;
+    width: 480px;
+    height: 280px;
     background-color: #ffffff;
     border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+.each_review img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.profile_section{
+    width: 420px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.name_area{
+    width: 300px;
+    height: 160px;
+}
 .name{
-    height: 30px;
-    width: 155px;
+    height: 35px;
+    width: 160px;
     background-color: #F25930;
     border-radius: 10px;
     display: flex;
@@ -143,22 +165,27 @@ a{
     justify-content: center;
 }
 #reviews h3{
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-weight: 400;
 }
 .profile{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
+    height: 40px;
+    width: 220px;
 }
 .comment{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 300;
+    height: 50px;
+    width: 315px;
+    margin-top: 50px;
 }
 
 #explore_more{
     width: 540px;
-    height: 165px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +196,7 @@ a{
 footer{
     height: 100px;
     background-color: #211499;
-    width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

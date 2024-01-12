@@ -1,8 +1,8 @@
 #login{
     background-image: url(../Assets/login.jpg);
-    background-size: 1440px 1200px;
+    background-size: cover;
     background-color: #211499;
-    background-size: 1440px 1200px;
+    background-size: cover;
     background-repeat:no-repeat;
     background-blend-mode: multiply;
     height: 1200px;
