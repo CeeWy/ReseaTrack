@@ -47,3 +47,8 @@ input:focus{
     background-color: transparent;
     color: #F4F4F9;
 }
+a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
