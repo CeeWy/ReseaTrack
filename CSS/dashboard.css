@@ -1,3 +1,292 @@
 body{
     background-color: #F4F4F9;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+/*sidebar styling*/
+.sidebar{
+    background-color: #211499;
+    height: 950px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: +1;
+}
+.sidebar h1{
+    font-size: 25px;
+    color: #F4F4F9;
+    text-align: center;
+    padding-top: 50px;
+ 
+}
+.sidebar p{
+    font-size: 20px;
+    color: #F4F4F9;
+    text-align: center;
+}
+
+.options{
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+#dashboard_highlight{
+    background-color: #E2BF2D;
+    width: 280px;
+    height: 65px;
+}
+#logout{
+    width: 280px;
+    height: 65px;
+    background-color: #F25930;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+/*major text_area styling*/
+#text_area{
+    margin-left: 350px;
+    margin-top: -900px;
+    height: 1500px;
+}
+#profile{
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+#name_area{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#name_area h1{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0;
+}
+#name_area p{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    margin: 0;
+}
+#profile_area{
+    height: 80px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#profile_area img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+#new_project{
+    background-color: #F25930;
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    color: #F4F4F9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*cards stying*/
+#cards{
+    width: 1300px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.each_card{
+    height: 200px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+.each_card h1{
+    color: #F25930;
+    font-size: 80px;
+    margin: 0;
+    padding-left: 25px;
+}
+.each_card p{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 25px;
+    margin-top: 30px;
+}
+/*work area styling*/
+#work_area{
+    height: 1000px;
+    width: 1500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.padding{
+    padding-left: 40px;
+}
+.title_area{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 50px;
+}
+.title_area h1{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.title_area p{
+    color: #F25930;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/*Meeting card styling*/
+#meeting_card{
+    height: 300px;
+    width: 500px;
+    background-color: #211499;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#card_title{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#meeting_card h1{
+    color:#E2BF2D;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 20px;
+}
+#meeting_card h2{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 20px;
+}
+#meeting_card h3{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 20px;
+}
+#summary{
+    color:#ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+    width: 400px;
+    margin-left: 20px;
+}
+.priority_high{
+    background-color: #F25930;
+    height: 40px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+}
+#card_footer{
+    height: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+/*smaller cards styling*/
+.other_meetings{
+    height: 150px;
+    width: 500px;
+    background-color: #F4F4F9;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.other_meetings h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+    margin-left: 20px;
+}
+.other_meetings h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.priority_meduim{
+    background-color: #E2BF2D;
+    height: 35px;
+    width: 70px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.priority_low{
+    background-color: #211499;
+    height: 35px;
+    width: 70px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+}
+#right_side{
+    margin-left: 650px;
+    margin-top: -750px;
 }
