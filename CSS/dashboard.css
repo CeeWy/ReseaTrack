@@ -241,7 +241,7 @@ body{
     width: 500px;
     background-color: #F4F4F9;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .other_meetings h1{
     font-size: 25px;
@@ -307,10 +307,11 @@ body{
     width: 550px;
     background-color: #F4F4F9;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .other_projects h1{
     font-size: 25px;
@@ -324,11 +325,17 @@ body{
     color: #333333;
     margin: 0;
 }
+.project_container{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .project_overview{
     height: 55px;
     width: 200px;
     margin-left: 20px;
-    background-color:aquamarine;
 }
 .project_notifications{
     display: flex;
@@ -359,7 +366,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
 }
 .project_collab img{
     height: 30px;
