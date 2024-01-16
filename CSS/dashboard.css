@@ -5,7 +5,7 @@ body{
     font-family: poppins;
 }
 /*sidebar styling*/
-.sidebar{
+#sidebar{
     background-color: #211499;
     height: 950px;
     width: 280px;
@@ -14,14 +14,14 @@ body{
     align-items: center;
     z-index: +1;
 }
-.sidebar h1{
+#sidebar h1{
     font-size: 25px;
     color: #F4F4F9;
     text-align: center;
     padding-top: 50px;
  
 }
-.sidebar p{
+#sidebar p{
     font-size: 20px;
     color: #F4F4F9;
     text-align: center;
@@ -286,7 +286,87 @@ body{
     color: #ffffff;
     font-size: 12px;
 }
+/*right hand side styling*/
 #right_side{
-    margin-left: 650px;
+    margin-left: 700px;
     margin-top: -750px;
+    display: flex;
+    flex-direction: column;
+}
+#calendar{
+    height: 340px;
+    width: 550px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 60px;
+}
+/*my project card styling*/
+.other_projects{
+    height: 150px;
+    width: 550px;
+    background-color: #F4F4F9;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.other_projects h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+}
+.other_projects h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+}
+.project_overview{
+    height: 55px;
+    width: 200px;
+    margin-left: 20px;
+    background-color:aquamarine;
+}
+.project_notifications{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    margin: 0;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: #F25930;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+.overdue{
+    height: 25px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.project_collab{
+    height: 25px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.project_collab img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.project_collab p{
+    font-size: 13px;
+    font-weight: 300;
 }
