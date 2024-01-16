@@ -20,17 +20,20 @@
         </header>
 
         <section id="text_area">
-            <h1>Research Setup page</h1>
+            <h1>Research Setup</h1>
             <div id="form_area">
-                <form>
+                <form method="post" action="task setup.html">
                     <label for="Role">Role</label>
-                    <input type="text" id="Log in" placeholder="Role">
-                    <label for="country">Invite collaborator</label>
-                    <select id="country" name="collaborator">
+                    <select id="Role" name="Role">
                     <option value="australia">supervisor</option>
                     <option value="canada">researcher</option>
                     </select>
-                    <a href="task setup.html"><input type="submit" value="Begin Research"></a>
+                    <label for="collaborator">Invite collaborator</label>
+                    <select id="collaborator" name="collaborator">
+                    <option value="australia">supervisor</option>
+                    <option value="canada">researcher</option>
+                    </select>
+                    <input type="submit" value="Begin Research"/>
                 </form>
             </div>
         </section>

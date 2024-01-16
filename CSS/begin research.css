@@ -3,7 +3,6 @@ body{
     font-family: poppins;
     margin: 0;
     padding: 0;
-    height: 1100px;
     width: auto;
 }
 header{
@@ -65,9 +64,9 @@ a{
     flex-direction: column;
 }
 
-input:focus{
-    border: 2px solid #F25930;
-    background-color: transparent;
+input [type=text], select:focus{
+    border: 2px solid #E2BF2D;
+    background-color: #ffffff;
     color: #333333;
 }
 input[type=submit] {
@@ -80,7 +79,8 @@ input[type=submit] {
     border-radius: 15px;
     cursor: pointer;
     height: 70px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
   }
   input[type=text], select {
     width: 100%;
@@ -97,4 +97,8 @@ input[type=submit] {
     font-size: 16px;
     text-indent: 15px;
     height: 70px;
+  }
+  label{
+    font-size: 18px;
+    font-weight: 500;
   }

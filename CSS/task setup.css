@@ -3,7 +3,8 @@ body{
     font-family: poppins;
     margin: 0;
     padding: 0;
-    height: 1100px;
+    width: auto;
+    height: 1000px;
 }
 header{
     width: auto;
@@ -62,35 +63,43 @@ a{
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-input{
-    height: 70px;
+
+input [type=text], select:focus{
+    border: 2px solid #E2BF2D;
+    background-color: #ffffff;
+    color: #333333;
+}
+input[type=submit] {
     width: 100%;
+    background-color: #F25930;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
     border-radius: 15px;
+    cursor: pointer;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  input[type=text], [type=date],select {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
     border: 2px solid #211499;
     background-color: #F4F4F9;
     color: #333333;
+    border-radius: 15px;
+    box-sizing: border-box;
     -webkit-transition: 0.7s;
     outline: none;
     font-size: 16px;
     text-indent: 15px;
-    margin-top: 30px;
-}
-input:focus{
-    border: 2px solid #F25930;
-    background-color: transparent;
-    color: #333333;
-}
-button{
-    width: 150px;
-    height: 50px;
-    background-color: #F25930;
-    border-radius: 10px;
-    font-family: poppins;
+    height: 70px;
+  }
+  label{
     font-size: 18px;
     font-weight: 500;
-    color: #ffffff;
-    border: none;
-    margin-top: 50px;
-}
+  }
