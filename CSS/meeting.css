@@ -36,7 +36,7 @@ body{
     align-items: center;
     padding-top: 150px;
 }
-#sidebar a{
+a{
     text-decoration: none;
 }
 .options a:hover{
@@ -80,7 +80,7 @@ body{
 }
 #name_area{
     height: 70px;
-    width: 200px;
+    width: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -124,15 +124,15 @@ body{
 
 /*cards stying*/
 #cards{
-    width: 1300px;
+    width: 1350px;
     height: 150px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 .each_card{
-    height: 200px;
-    width: 380px;
+    height: 150px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -141,8 +141,8 @@ body{
 }
 .each_card h1{
     color: #F25930;
-    font-size: 80px;
-    margin: 0;
+    font-size: 45px;
+    margin-top: -5px;
     padding-left: 25px;
 }
 .each_card p{
@@ -154,7 +154,7 @@ body{
 }
 /*work area styling*/
 #work_area{
-    height: 1000px;
+    height: 1100px;
     width: 1500px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -165,7 +165,7 @@ body{
 }
 .title_area{
     height: 40px;
-    width: 230px;
+    width: 210px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -211,7 +211,7 @@ body{
 #meeting_card h2{
     color:#ffffff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0;
     margin-left: 20px;
 }
@@ -305,7 +305,7 @@ body{
 /*right hand side styling*/
 #right_side{
     margin-left: 700px;
-    margin-top: -750px;
+    margin-top: -900px;
     display: flex;
     flex-direction: column;
 }
