@@ -1,0 +1,38 @@
+#not_done{
+    height: 320px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#not_done h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.all_meetings_card{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+}
+.all_meetings_card h1{
+    font-size: 30px;
+    color: #211499;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 20px;
+}
+.all_meetings_card h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+#deadline{
+    height: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
