@@ -316,6 +316,87 @@ a{
     border-radius: 15px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {list-style-type: none;}
+
+.month {
+    margin-top: 40px;
+  width: 85%;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  background-color: #F25930;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.month .next {
+  float: right;
+  background-color: #F25930;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #333333;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size:14px;
+  color: #333333
+}
+
+.days li .active {
+  padding: 10px;
+  background: #F25930;
+  border-radius: 50%;
+  color: white !important
 }
 /*my project card styling*/
 .other_projects{
